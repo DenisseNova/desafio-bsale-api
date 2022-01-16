@@ -24,12 +24,16 @@ El Backend está creado con express.js para la creación de la API rest, la cual
 En la API se crearon 4 endpoint para la consulta hacia la base de datos.
 A continuación, se describirán los endpoint:
 
+[CONTRATO (Endpoints)](https://documenter.getpostman.com/view/19176779/UVXkmZgK) https://documenter.getpostman.com/view/19176779/UVXkmZgK
+
 - Get:   /products  -> Se mostrara todos los productos de la base de datos.
 - Get:  /category/name/:name. -> Se consultará por el nombre que se escribe en el buscador la cuál devolverá los productos filtrados.
 - Get:   /category/products.  Mostrará las categorías con 2 productos por cada una.
 - Get:  /product/category/:id  -> Se mostrara todos los productos de 1 categoría
 
 Los endpoint tienen integrado límit y offset para paginar los resultados que se mostraran mas reflejados en /products y /product/category/:id.
+
+
 
 
 

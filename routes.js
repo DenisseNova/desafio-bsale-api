@@ -13,7 +13,7 @@ router.get('/category', async (req,res) => {
   return res.json(prods)
 })
 
-//devuelve la categoria con tos sus productos
+//devuelve la categoria con todos sus productos
 router.get('/category/products', async (req,res) => {
   const prods = await models.Category.findAll({
     include: [
