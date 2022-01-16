@@ -1,3 +1,4 @@
+//modelo de la BD de la tabla Products
 module.exports = function(sequelize, DataTypes){
   const Product = sequelize.define('Product', {
     id: {

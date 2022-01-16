@@ -34,7 +34,6 @@ Object.keys(models).forEach((modelName) => {
   }
 })
 
-
 const db = {
   sequelize,
   models,

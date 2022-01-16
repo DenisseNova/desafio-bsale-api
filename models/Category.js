@@ -1,3 +1,4 @@
+//modelo de la BD tabla category
 module.exports = function(sequelize, DataTypes){
   const Category = sequelize.define('Category', {
     id: {
